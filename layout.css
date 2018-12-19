@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    padding: 5px;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th, td { 
+    text-align: left; 
+    padding: 3px;
+}
+main a {
+    text-decoration: none;
+    color: green;
+    border: 1px solid green;
+    padding: 3px;
+    margin: 3px;
+}
+td.button {
+    background-color: #DFD;
+}
+td a {
+    text-decoration: none;
+}
+label input, label select {
+    display: block;
+    padding: 3px;
+    margin-bottom: 6px;
+    width: 220px;
+}
+nav {
+    display: block;
+    margin-bottom: 12px;
+}
+nav a, nav button {
+    display: inline-block;
+    border: 1px solid green;
+    background-color: #DFD;
+    padding: 3px;
+    font-size: 12pt;
+}
+nav a {
+    text-decoration: none;
+}
