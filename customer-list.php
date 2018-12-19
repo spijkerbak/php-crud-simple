@@ -1,8 +1,5 @@
 <?php
 // UTF-8 NΟ BOM 
-session_start();
-$_SESSION['list'] = 'customer-list.php';
-
 include 'db.php';
 
 // get result set

@@ -1,6 +1,4 @@
 ﻿<?php
-// UTF-8 NΟ BOM
-session_start();
 require 'db.php';
 
 // get url parameter
