@@ -18,6 +18,8 @@
         <h1>Home</h1>
         <p>CRUD-simple example V2.1</p>
         <p>Get sources on <a target="github" href="http://github.com/spijkerbak/php-crud-simple.git">Github</a>.
+        <p><a href="../crud/">Another example available</a></p>
+
     </body>
 
 </html>
