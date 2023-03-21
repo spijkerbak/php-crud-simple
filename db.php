@@ -29,7 +29,8 @@ try {
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 
 // function to call after execution of statement
-function checkSQL($stmt) {
+function checkSQL($stmt)
+{
     $info = $stmt->errorInfo();
     if ($info[0] != '00000') {
         echo $info[2];

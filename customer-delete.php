@@ -13,4 +13,3 @@ checkSQL($stmt);
 
 // redirect to list
 header('location: customer-list.php');
-
