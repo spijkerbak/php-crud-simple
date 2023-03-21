@@ -1,5 +1,5 @@
 <?php
-// UTF-8 NΟ BOM
+
 require 'db.php';
 
 // get url parameter

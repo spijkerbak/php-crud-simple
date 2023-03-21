@@ -1,5 +1,4 @@
 <?php
-// UTF-8 NΟ BOM 
 include 'db.php';
 
 // get result set

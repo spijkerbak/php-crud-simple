@@ -1,5 +1,8 @@
 <?php
-// UTF-8 NΟ BOM
+// show errors
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+$errRep = error_reporting(E_ALL);
 
 // disable caching in browsers and proxies 
 // to prevent stale data after refresh or redirect
